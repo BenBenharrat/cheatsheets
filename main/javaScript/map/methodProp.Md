@@ -6,3 +6,8 @@
 `map.has(key)` - returns `true` if the given key exists, `false` otherwise.
 `map.delete(key)` - removes a value by its given key.
 `map.clear()` - remove all values and keys.
+
+#Map properties
+
+`map.size` - returns current count of elements in the `map`
+
