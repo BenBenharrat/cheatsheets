@@ -1,4 +1,4 @@
-#Map methods
+# Map methods
 
 `new Map([iterable])` - create a new map with an optional iterable of `[key, value]` pairs.
 `map.set(key, value)` - store a new value with the assorted key.
@@ -7,7 +7,7 @@
 `map.delete(key)` - removes a value by its given key.
 `map.clear()` - remove all values and keys.
 
-#Map properties
+# Map properties
 
 `map.size` - returns current count of elements in the `map`
 
