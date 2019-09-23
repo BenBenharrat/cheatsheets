@@ -1,4 +1,8 @@
 #Map methods
 
-`new Map()` - create a new map.
-`map.set(key, value)` - store a new value with the assorted key
+`new Map([iterable])` - create a new map with an optional iterable of `[key, value]` pairs.
+`map.set(key, value)` - store a new value with the assorted key.
+`map.get(key)` - returns the value accessible by the given key (returns `undefined` if no value).
+`map.has(key)` - returns `true` if the given key exists, `false` otherwise.
+`map.delete(key)` - removes a value by its given key.
+`map.clear()` - remove all values and keys.
